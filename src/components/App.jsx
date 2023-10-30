@@ -1,3 +1,10 @@
+import { Profile } from "./Profile";
+import stats from '../data/data.json'
+import friends from '../data/friends.json'
+import  Statistics  from "./Statistics";
+import  FriendList  from "./FriendsList";
+
+import styled from "styled-components";
 export const App = () => {
   return (
     <div
@@ -10,7 +17,9 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
+      <Profile/>
+      <Statistics title="Upload stats" stats={stats} />
+      <FriendList friends={friends} />
     </div>
   );
 };
