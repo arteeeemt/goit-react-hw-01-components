@@ -4,7 +4,7 @@ import friends from '../data/friends.json'
 import  Statistics  from "./Statistics";
 import  FriendList  from "./FriendsList";
 
-import styled from "styled-components";
+
 export const App = () => {
   return (
     <div

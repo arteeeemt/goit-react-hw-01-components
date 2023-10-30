@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+
 import { Container,Title,StatList,StatItem,Label,Percentage } from '../components/Statistics.style'
 
 
