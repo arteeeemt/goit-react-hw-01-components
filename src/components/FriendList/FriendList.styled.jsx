@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 export const List = styled.ul`
-margin: 30px;
+margin: 29px;
 `
 export const FriendItem = styled.li`
 display: flex;
